@@ -294,7 +294,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .section-title__tagline {
     position: relative;
     display: inline-block;
-    color: var(--oslim-base);
+    color: var(--oslim-white);
     font-size: 12px;
     line-height: 22px;
     font-weight: 600;
@@ -398,7 +398,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: inline-block;
     width: 45px;
     height: 45px;
-    background: var(--oslim-base);
+    background: var(--icon-arrows);
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -2262,7 +2262,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .welcome-one__top-left .section-title__tagline {
-    background-color: #0a090f;
+    background-color: #2BB673;
 }
 
 .welcome-one__top-left .section-title__title {
