@@ -30,6 +30,8 @@
     --btn-secondary:#00A79D;
     --oslim-base-rgb: 255, 97, 60;
     --oslim-extra: #fcf5f3;
+    --icon-arrows: #27AAE1;
+    --icon-green: #6FC066;
     --oslim-extra-rgb: 252, 245, 243;
     --oslim-bdr-radius: 3px;
 }
@@ -306,7 +308,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .section-title__title {
     margin: 0;
-    font-size: 55px;
+    font-size: 40px;
     line-height: 65px;
     font-weight: 800;
 }
@@ -2267,6 +2269,7 @@ input[type="search"]::-webkit-search-results-decoration {
     color: var(--oslim-white);
 }
 
+
 .welcome-one__top-right {
     position: relative;
     display: block;
@@ -2427,7 +2430,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .welcome-one__feature-single:hover .welcome-one__feature-title a {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .welcome-one__feature-arrow {
@@ -2462,7 +2465,7 @@ input[type="search"]::-webkit-search-results-decoration {
     bottom: 0;
     right: 0;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-green);
     border-radius: 15px;
     transform: scale(0.0);
     transform-origin: center;
@@ -2485,7 +2488,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     display: inline-block;
     font-size: 64px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     transition: all 500ms linear;
     transition-delay: 0.1s;
 }
