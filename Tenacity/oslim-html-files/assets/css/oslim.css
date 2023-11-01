@@ -2814,7 +2814,7 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 0;
     bottom: 0;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
@@ -4020,7 +4020,7 @@ input[type="search"]::-webkit-search-results-decoration {
     left: 0;
     right: 0px;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-radius: var(--oslim-bdr-radius);
     z-index: -1;
 }
@@ -4036,7 +4036,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     overflow: hidden;
     padding: 94px 0;
     padding-left: 120px;
