@@ -20,13 +20,14 @@
 :root {
     --oslim-font: 'Catamaran', sans-serif;
     --oslim-reey-font: "reeyregular";
-    --oslim-gray: #81808c;
+    --lighter-gray: #22383F;
     --oslim-gray-rgb: 129, 128, 140;
     --oslim-white: #ffffff;
     --oslim-white-rgb: 255, 255, 255;
     --oslim-black: #191825;
     --oslim-black-rgb: 25, 24, 37;
     --oslim-base: #ff613c;
+    --btn-secondary:#00A79D;
     --oslim-base-rgb: 255, 97, 60;
     --oslim-extra: #fcf5f3;
     --oslim-extra-rgb: 252, 245, 243;
@@ -173,7 +174,7 @@ input[type="search"]::-webkit-search-results-decoration {
     vertical-align: middle;
     -webkit-appearance: none;
     outline: none !important;
-    background-color:#00A79D;
+    background-color:var(--btn-secondary);
     color: var(--oslim-white);
     font-size: 14px;
     font-weight: 800;
@@ -471,6 +472,10 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-right: 125px;
 }
 
+.main-menu-wrapper__logo img {
+    width: 10rem;
+}
+
 .main-menu-wrapper__logo:before {
     position: absolute;
     top: 25px;
@@ -589,7 +594,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .stricky-header.main-menu {
     padding: 0 60px;
-    background-color: var(--oslim-black);
+    background-color: var(--lighter-gray);
 }
 
 .main-menu .main-menu__list,
@@ -643,7 +648,7 @@ input[type="search"]::-webkit-search-results-decoration {
     content: "";
     height: 1px;
     border-radius: 0px;
-    background-color: var(--oslim-base);
+    background-color: var(--btn-secondary);
     position: absolute;
     bottom: 3px;
     left: 0;
@@ -686,7 +691,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu .main-menu__list>li.current>a::before {
-    background-color: var(--oslim-base);
+    background-color: var(--btn-secondary);
 }
 
 .main-menu-three .main-menu__list>li.current>a::before {
@@ -694,7 +699,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-menu .main-menu__list>li:hover>a::before {
-    background-color: var(--oslim-base);
+    background-color: var(--btn-secondary);
 }
 
 .main-menu-three .main-menu__list>li:hover>a::before {
@@ -2222,7 +2227,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .welcome-one {
     position: relative;
     display: block;
-    background-color: var(--oslim-black);
+    background-color: var(--btn-secondary);
     padding: 120px 0 120px;
     z-index: 1;
 }
@@ -4085,7 +4090,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .site-footer__top {
     position: relative;
     display: block;
-    background-color: var(--oslim-black);
+    background-color: var(--btn-secondary);
     padding: 222px 0 100px;
     z-index: 1;
 }
