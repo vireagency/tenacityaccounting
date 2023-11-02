@@ -9,9 +9,10 @@
     --oslim-white-rgb: 255, 255, 255;
     --oslim-black: #191825;
     --oslim-black-rgb: 25, 24, 37;
+    --oslim-green-rgb: 19, 168, 158;
     --oslim-base: #ff613c;
     --btn-secondary:#00A79D;
-    --btn-secondarhover: #036761;
+    --btn-secondarhover: #105f5a;
     --oslim-base-rgb: 255, 97, 60;
     --oslim-extra: #fcf5f3;
     --icon-arrows: #27AAE1;
@@ -354,6 +355,10 @@ position: relative;
     font-weight: 800;
 }
 
+.section-title__title  {
+ color:var(--btn-secondary) ;
+}
+
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
 .bootstrap-select .btn-light:not(:disabled):not(.disabled):active,
 .bootstrap-select .show>.btn-light.dropdown-toggle {
@@ -569,7 +574,7 @@ position: relative;
 }
 
 .main-menu-wrapper__search:hover {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .main-menu-wrapper__call {
@@ -603,7 +608,7 @@ position: relative;
 }
 
 .main-menu-wrapper__call-icon:hover span {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .main-menu-wrapper__call-number {
@@ -623,7 +628,7 @@ position: relative;
 }
 
 .main-menu-wrapper__call-number a:hover {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .main-menu-wrapper__call-number p {
@@ -1696,12 +1701,12 @@ position: relative;
     top: 0;
     right: -1px;
     border-radius: 0;
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border: 0;
 }
 
 .search-popup__content .thm-btn:hover {
-    background-color: var(--oslim-black);
+    background-color: var(--lighter-gray);
 }
 
 .search-popup__content .thm-btn i {
@@ -2373,7 +2378,7 @@ position: relative;
 
 .welcome-one__counter-text {
     font-size: 20px;
-    color: #a5a3b5;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -2805,7 +2810,7 @@ position: relative;
     right: 0;
     bottom: 0;
     content: "";
-    background-color: rgba(var(--oslim-black-rgb), .30);
+    background-color: rgba(var(--oslim-green-rgb), .30);
     opacity: 1;
     -webkit-transition: .5s;
     -o-transition: .5s;
@@ -3109,11 +3114,11 @@ position: relative;
     border: 1px solid #dcdce0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .faq-one-accrodion .accrodion.active .accrodion-title h4 {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .faq-one-accrodion .accrodion-title h4::before {
@@ -3121,7 +3126,7 @@ position: relative;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 17px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     ;
     position: absolute;
     top: 50%;
@@ -4228,7 +4233,7 @@ position: relative;
     right: 0;
     bottom: 0;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-radius: 50%;
     transition: transform 500ms ease;
     transform: scale(0, 1);
@@ -4342,7 +4347,7 @@ position: relative;
 
 .footer-widget__newsletter-btn i {
     font-size: 16px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .footer-widget__contact {
@@ -4373,12 +4378,12 @@ position: relative;
 }
 
 .footer-widget__contact-number:hover {
-    color: var(--oslim-base);
+    color: var(--lighter-gray);
 }
 
 .footer-widget__contact-email {
     font-size: 20px;
-    color: var(--oslim-base);
+    color: var(--lighter-gray);
     font-weight: 500;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -4637,7 +4642,7 @@ position: relative;
 }
 
 .case-two__carousel.owl-carousel .owl-dot.active {
-    border: 2px solid var(--oslim-base);
+    border: 2px solid var(--icon-arrows);
     background-color: rgba(var(--oslim-black-rgb), 0);
 }
 
@@ -6885,7 +6890,7 @@ position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--oslim-black);
+    background-color: var(--btn-secondarhover);
     background-blend-mode: luminosity;
     opacity: 0.4;
     z-index: -1;
