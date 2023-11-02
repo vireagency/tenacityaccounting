@@ -1,22 +1,5 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Cards
-# Common
-# Form
-# Navigations
-# Animations
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
---------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap');
 
-/*--------------------------------------------------------------
-# Common
---------------------------------------------------------------*/
 :root {
     --oslim-font: 'Catamaran', sans-serif;
     --oslim-reey-font: "reeyregular";
@@ -28,10 +11,12 @@
     --oslim-black-rgb: 25, 24, 37;
     --oslim-base: #ff613c;
     --btn-secondary:#00A79D;
+    --btn-secondarhover: #036761;
     --oslim-base-rgb: 255, 97, 60;
     --oslim-extra: #fcf5f3;
     --icon-arrows: #27AAE1;
     --icon-green: #6FC066;
+    --icon-greenhover: #19990b;
     --oslim-extra-rgb: 252, 245, 243;
     --oslim-bdr-radius: 3px;
 }
@@ -190,14 +175,70 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .thm-btn:hover {
-    color: var(--oslim-base);
-    background-color: transparent;
+    color: var(--oslim-white);
+    background-color: var(--btn-secondarhover);
 }
 
-.thm-btn::before {
+.thm-btn-call{
+position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none !important;
+    background-color:var(--icon-green);
+    color: var(--oslim-white);
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px 60px 16px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    letter-spacing: 0.1em;
+    border-radius: var(--oslim-bdr-radius);
+    z-index: 1;
+}
+.thm-btn-call:hover {
+    color: var(--oslim-white);
+    background-color: var(--icon-greenhover);
+}
+
+.thm-btn-call::before {
     position: absolute;
     content: '';
-    background-color: var(--oslim-black);
+    background-color: var(--icon-greenhover);
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+
+.thm-btn-call::after {
+    position: absolute;
+    content: '';
+    background-color: var(--icon-greenhover);
+    width: 0%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+
+.thm-btn-call:hover::before,
+.thm-btn-.thm-btn-call::after {
+    width: 50%;
+}
+
+.thm-btn-call::before {
+    position: absolute;
+    content: '';
+    background-color: var(--icon-greenhover);
     width: 0%;
     height: 100%;
     left: 0px;
@@ -211,7 +252,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .thm-btn::after {
     position: absolute;
     content: '';
-    background-color: var(--oslim-black);
+    background-color: var(--btn-secondarhover);
     width: 0%;
     height: 100%;
     right: 0px;
@@ -1783,14 +1824,20 @@ input[type="search"]::-webkit-search-results-decoration {
     margin: 0;
     margin-bottom: 35px;
     color: var(--oslim-white);
-    font-weight: 900;
+    font-weight: 600;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-120px);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
-    font-size: 70px;
-    line-height: 90px;
+    font-size: 60px;
+    line-height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-slider h5 {
+    color: var(--oslim-white);
+    margin-bottom: 40px;
 }
 
 .main-slider .thm-btn {
