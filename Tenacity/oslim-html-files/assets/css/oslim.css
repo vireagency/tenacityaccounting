@@ -301,7 +301,7 @@ input[type="search"]::-webkit-search-results-decoration {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-bottom: 10px;
-    background-color: var(--oslim-extra);
+    background-color: var(--icon-green);
     padding: 4px 20px 3px;
     border-radius: 15px;
 }
@@ -1789,8 +1789,8 @@ input[type="search"]::-webkit-search-results-decoration {
     transform: translateY(-120px);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
-    font-size: 120px;
-    line-height: 120px;
+    font-size: 70px;
+    line-height: 90px;
 }
 
 .main-slider .thm-btn {
@@ -2527,7 +2527,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .welcome-one__find-solutions-text {
-    color: #a5a3b5;
+    color: white;
     font-weight: 500;
     margin: 0;
     line-height: 29px;
@@ -2536,7 +2536,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .welcome-one__find-solutions-text a {
     position: relative;
     display: inline-block;
-    background-color: var(--oslim-base);
+    background-color: var(--icon-green);
     font-size: 12px;
     color: var(--oslim-white);
     text-transform: uppercase;
@@ -2551,7 +2551,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .welcome-one__find-solutions-text a:hover {
     background-color: var(--oslim-white);
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 
@@ -2613,7 +2613,7 @@ input[type="search"]::-webkit-search-results-decoration {
     left: -27px;
     width: 7px;
     height: 83px;
-    background-color: var(--oslim-base);
+    background-color: var(--btn-secondary);
     content: "";
     border-radius: 8px;
 }
@@ -2656,7 +2656,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .work-together__points li .icon {
     height: 15px;
     width: 15px;
-    background-color: var(--oslim-base);
+    background-color: var(--btn-secondary);
     font-size: 9px;
     color: var(--oslim-white);
     display: flex;
@@ -2975,7 +2975,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .benefits-one__points li .icon span {
     font-size: 62px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     position: relative;
     display: inline-block;
     transition: all 500ms linear;
@@ -3156,7 +3156,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .free-consultation__content span {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -3165,7 +3165,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: relative;
     height: 100px;
     width: 100px;
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-radius: 50%;
     font-size: 40px;
     color: var(--oslim-white);
@@ -3178,7 +3178,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .free-consultation__icon:hover {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     background-color: var(--oslim-white);
 }
 
@@ -3225,12 +3225,12 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .free-consultation__contact-number:hover {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .free-consultation__contact-email {
     font-size: 20px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     font-weight: 500;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -3280,7 +3280,7 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 0;
     height: 560px;
     width: 260px;
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     mix-blend-mode: color;
     border-radius: 280px;
     transform: rotate(-40deg);
@@ -3293,7 +3293,7 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 223px;
     height: 350px;
     width: 165px;
-    background-color: var(--oslim-white);
+    background-color: var(--btn-secondary);
     mix-blend-mode: overlay;
     border-radius: 175px;
     transform: rotate(-40deg);
@@ -3306,7 +3306,7 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 580px;
     height: 770px;
     width: 360px;
-    background-color: var(--oslim-black);
+    background-color: var(--icon-green);
     mix-blend-mode: soft-light;
     border-radius: 385px;
     transform: rotate(-40deg);
@@ -3720,7 +3720,7 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: var(--oslim-white);
     border-radius: 50%;
     font-size: 23px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3742,7 +3742,7 @@ input[type="search"]::-webkit-search-results-decoration {
     right: 0;
     bottom: 0;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-radius: 50%;
     transition: transform 500ms ease;
     transform: scale(0, 1);
@@ -3768,7 +3768,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .trusted.one__single:hover .trusted-one__title a {
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .trusted-one__text {
@@ -4123,6 +4123,10 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-bottom: 40px;
 }
 
+.footer-widget__logo img {
+   width: 10rem;
+}
+
 .footer-widget__about-text-box {
     position: relative;
     display: block;
@@ -4314,7 +4318,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .footer-widget__contact-number {
-    font-size: 30px;
+    font-size: 20px;
     color: var(--oslim-white);
     font-weight: 500;
     -webkit-transition: all 500ms ease;
@@ -6793,7 +6797,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .page-header {
     position: relative;
     display: block;
-    padding: 210px 0 118px;
+    padding: 410px 0 118px;
     background-color: var(--oslim-black);
     overflow: hidden;
     z-index: 1;
