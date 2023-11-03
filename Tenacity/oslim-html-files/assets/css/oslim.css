@@ -13,7 +13,8 @@
     --oslim-base: #ff613c;
     --btn-secondary:#00A79D;
     --btn-secondarhover: #105f5a;
-    --oslim-base-rgb: 255, 97, 60;
+    --oslim-base-rgb: 
+    ;
     --oslim-extra: #fcf5f3;
     --icon-arrows: #27AAE1;
     --icon-green: #6FC066;
@@ -5535,7 +5536,7 @@ position: relative;
     width: 146px;
     height: 146px;
     transform: translate(-50%, -50%);
-    -ms-box-shadow: 0 0 0 0 rgba(var(--oslim-base-rgb), 0.6);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--oslim-green-rgb), 0.6);
     -o-box-shadow: 0 0 0 0 rgba(var(--oslim-base-rgb), 0.6);
     box-shadow: 0 0 0 0 rgba(var(--oslim-base-rgb), 0.6);
     -webkit-animation: ripple 3s infinite;
