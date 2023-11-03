@@ -3192,7 +3192,7 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--oslim-black);
+    background-color: var(--lighter-gray);
     padding: 60px 100px 60px;
     border-radius: var(--oslim-bdr-radius);
 }
