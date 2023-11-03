@@ -3375,7 +3375,7 @@ position: relative;
 }
 
 .our-mission__title {
-    font-size: 75px;
+    font-size: 60px;
     color: var(--oslim-white);
     font-weight: 800;
     line-height: 80px;
@@ -4280,14 +4280,14 @@ position: relative;
 
 .footer-widget__explore-list li a {
     font-size: 16px;
-    color: #a5a3b5;
+    color: #ffffff;;
     font-weight: 500;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .footer-widget__explore-list li a:hover {
-    color: var(--oslim-white);
+    color: var(--icon-arrows);
 }
 
 .footer-widget__explore-list-two {
@@ -4303,7 +4303,7 @@ position: relative;
 
 .footer-widget__newsletter-text {
     font-size: 16px;
-    color: #a5a3b5;
+    color: #ffffff;
     margin: 0;
     line-height: 26px;
     padding-bottom: 21px;
@@ -4361,7 +4361,7 @@ position: relative;
 
 .footer-widget__contact-text {
     font-weight: 500;
-    color: #a5a3b5;
+    color: #ffffff;
     line-height: 30px;
     margin: 0;
 }
@@ -4746,7 +4746,7 @@ position: relative;
     width: 0%;
     height: 100%;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     transition: all 0.3s ease;
@@ -4760,7 +4760,7 @@ position: relative;
     width: 0%;
     height: 100%;
     content: "";
-    background-color: var(--oslim-base);
+    background-color: var(--icon-arrows);
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     transition: all 0.3s ease;
@@ -4872,7 +4872,7 @@ position: relative;
     position: relative;
     display: inline-block;
     font-size: 64px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -5470,7 +5470,7 @@ position: relative;
 }
 
 .our-mission-two__title {
-    font-size: 75px;
+    font-size: 60px;
     color: var(--oslim-white);
     font-weight: 800;
     line-height: 80px;
@@ -5523,7 +5523,7 @@ position: relative;
     content: "";
     border-radius: 50%;
     z-index: 1;
-    border: 3px solid var(--oslim-base);
+    border: 3px solid rgb(197, 13, 13);
 }
 
 .our-mission-two__video-link .ripple,
@@ -5559,7 +5559,7 @@ position: relative;
 
 .our-mission-two__video-text {
     font-size: 30px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     line-height: 40px;
     font-family: var(--oslim-reey-font);
     position: relative;
@@ -8617,12 +8617,12 @@ position: relative;
 
 .work-together-tow__content:hover .work-together-tow__icon span {
     transform: rotateY(360deg) scale(.9);
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
 }
 
 .work-together-tow__text {
     font-size: 24px;
-    color: var(--oslim-base);
+    color: var(--icon-arrows);
     font-weight: 500;
     line-height: 38px;
     margin-left: 17px;
