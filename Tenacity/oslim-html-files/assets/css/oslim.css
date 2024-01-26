@@ -2548,11 +2548,19 @@ position: relative;
     position: relative;
     display: inline-block;
     font-size: 64px;
+    font-weight: 500;
     color: var(--icon-arrows);
     transition: all 500ms linear;
     transition-delay: 0.1s;
 }
 
+ .material-symbols-outlined {
+     font-variation-settings:
+         'FILL' 0,
+         'wght' 200,
+         'GRAD' 0,
+         'opsz' 24
+ }
 .welcome-one__feature-single:hover .welcome-one__feature-icon span {
     transform: rotateY(360deg);
 }
